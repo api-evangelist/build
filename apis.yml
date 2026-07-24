@@ -1,8 +1,26 @@
 aid: build
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/build.png
 name: Build
-description: 'Build is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Build is an AI-native operating partner for the built world, pairing autonomous
+  AI agents (its "Dougie" platform) with deep domain expertise to accelerate commercial
+  real estate and infrastructure development. The platform automates mission-critical
+  development workflows including site selection, due diligence, underwriting, investment-committee
+  memos, test-fit analysis, market and zoning research, environmental diligence, and ESG
+  reporting. Build serves institutional clients across data centers, industrials, energy,
+  power, office, telecommunications, mixed-use, hotels, and multifamily. Backed by Index
+  Ventures; profiled in the API Evangelist network. Build is a services company and does
+  not currently publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/build/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Business Applications
+- Artificial Intelligence
+- AI Agents
+- Real Estate
+- Commercial Real Estate
+- Infrastructure
+- Construction
+- ESG
+- Due Diligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://build.inc
+  url: https://www.build.inc
+- type: Company
+  url: https://www.build.inc/company
+- type: Blog
+  url: https://www.build.inc/blog
+- type: Login
+  url: https://app.build.inc/login
+- type: TermsOfService
+  url: https://www.build.inc/terms
+- type: PrivacyPolicy
+  url: https://www.build.inc/privacy
+- type: Security
+  url: https://www.build.inc/security
+- type: Compliance
+  url: https://build.inc/trust
+- type: TrustCenter
+  url: security/build-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/build-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/build-domain-security.yml
+- type: SecurityTxt
+  url: well-known/build-security.txt
+- type: WellKnown
+  url: well-known/build-well-known.yml
+- type: LLMsTxt
+  url: llms/build-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

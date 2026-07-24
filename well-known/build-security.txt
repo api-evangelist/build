@@ -1,0 +1,8 @@
+# Our security address
+Contact: mailto:security@build.inc
+# Our security page
+Policy: https://build.inc/security
+# Preferred languages for security reports
+Preferred-Languages: en
+# Canonical URI
+Canonical: https://build.inc/.well-known/security.txt 

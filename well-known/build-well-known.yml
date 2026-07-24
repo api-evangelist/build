@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/ on build.inc hosts
+host: https://app.build.inc
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  host: https://app.build.inc
+  file: build-security.txt
+- path: /.well-known/security.txt          # canonical host 404s (only app host serves it)
+  status: 404
+  host: https://build.inc
+- path: /.well-known/openid-configuration   # redirects to canonical host, no document
+  status: 307
+  host: https://www.build.inc
+- path: /.well-known/oauth-authorization-server
+  status: 307
+  host: https://www.build.inc
+- path: /.well-known/api-catalog
+  status: 307
+  host: https://www.build.inc
+- path: /.well-known/ai-plugin.json
+  status: 307
+  host: https://www.build.inc

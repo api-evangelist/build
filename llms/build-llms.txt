@@ -1,0 +1,22 @@
+# Build
+
+> Build is an AI-native operating partner for the built world, combining autonomous AI agents (its "Dougie" platform) with domain expertise to accelerate commercial real estate and infrastructure development. It automates mission-critical development workflows — site selection, due diligence, underwriting, investment-committee memos, test-fit analysis, market and zoning research, environmental diligence, and ESG reporting — for institutional clients across data centers, industrials, energy, power, office, telecommunications, mixed-use, hotels, and multifamily.
+
+Build is a services company, not a public API provider. There is no public developer platform, API reference, or SDK at this time. This file is generated from the API Evangelist catalog stub for discoverability.
+
+## Company
+- [Website](https://www.build.inc): Build home
+- [Company](https://www.build.inc/company): About Build
+- [Services / Offering](https://www.build.inc/offering/services): What Build automates
+- [Blog](https://www.build.inc/blog): Build blog
+- [Careers](https://www.build.inc/careers): Open roles
+- [Login](https://app.build.inc/login): Application login
+
+## Security & Trust
+- [Security](https://www.build.inc/security): Security program (SOC 2 Type I & II, encryption, pen testing)
+- [Trust Center](https://build.inc/trust): Trust center with certifications
+- [security.txt](https://app.build.inc/.well-known/security.txt): RFC 9116 security contact + policy
+
+## Legal
+- [Privacy Policy](https://www.build.inc/privacy)
+- [Terms](https://www.build.inc/terms)
