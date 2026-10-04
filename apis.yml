@@ -47,7 +47,7 @@ tags:
 - Business Applications
 - Artificial Intelligence
 - AI Agents
-- Real-Estate
+- Real Estate
 - Commercial Real Estate
 - Infrastructure
 - Construction
@@ -64,6 +64,7 @@ tags_raw:
 - Construction
 - ESG
 - Due Diligence
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
